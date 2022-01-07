@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/costume-home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <style type="text/css">
+        @font-face {
+            font-family: "cyrene-regular";
+            src: url('font/Cyrene+Regular+Advanced.otf');
+        }
+
+        @font-face {
+            font-family: "proxima-regular";
+            src: url('font/ProximaNova-Regular.otf');
+        }
+
+        @font-face {
+            font-family: "proxima-light";
+            src: url('font/ProximaNovAltLight.otf');
+        }
+    </style>
+
+</head>
+
+<body>
+    
+        <div class="navbar">
+            <i class="fa fa-bars  toggle-overlay"></i>
+            <div class="header-logo"><img src="img/Group 129.png"></div>
+        </div>
+        <aside>
+            <div class="outer-close toggle-overlay">
+                <a class="close"><span></span></a>
+            </div>
+            <nav>
+                <div class="logo-tab"><img src="img/Group 129.png"></div>
+                <ul>
+                    <li><a href="#!">Tentang</a></li>
+                    <li><a href="#!">Wisata</a></li>
+                    <li><a href="#!">Fasilitas</a></li>
+                    <li><a href="#!">Pusaka</a></li>
+                    <li><a href="#!">Kontak</a></li>
+                </ul>
+            </nav>
+        </aside>
+<div class="bg-wisata">
+        <div class="col-md-12 header ">
+            <div class="header-bawah">
+                <h1 class="stone">
+                    PUSAKA
+                </h1>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 content-pusaka">
+        <div class="row">
+            <div class="col-md-4 con-pus">
+                <center>
+                <a href="#">
+                    <img src="img/1.png">
+                    <h4>Geomorfologi
+                    Citatah</h4>
+                </a>
+                </center>
+            </div>
+            <div class="col-md-4 con-pus">
+                <center>
+                   <a href="#"><img src="img/1.png">
+                    <h4>Batuan Karst</h4></a>
+                </center>
+            </div>
+            <div class="col-md-4 con-pus">
+                <center>
+                    <a href="#"><img src="img/1.png">
+                    <h4>Pertambangan Citatah</h4></a>
+                    </center>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        (function ($) {
+            $(function () {
+                $('.toggle-overlay').click(function () {
+                    $('aside').toggleClass('open');
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+
+</html>
