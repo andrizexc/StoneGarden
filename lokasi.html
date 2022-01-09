@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/costume-home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <style type="text/css">
+        @font-face {
+            font-family: "cyrene-regular";
+            src: url('font/Cyrene+Regular+Advanced.otf');
+        }
+
+        @font-face {
+            font-family: "proxima-regular";
+            src: url('font/ProximaNova-Regular.otf');
+        }
+
+        @font-face {
+            font-family: "proxima-light";
+            src: url('font/ProximaNovAltLight.otf');
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="bg-lokasi">
+    <div class="navbar">
+        <i class="fa fa-bars  toggle-overlay"></i>
+        <div class="header-logo-2"><a href="index.html"><img src="img/Group 129.png"></a></div>
+    </div>
+    <aside>
+        <div class="outer-close toggle-overlay">
+            <a class="close"><span></span></a>
+        </div>
+        <nav>
+            <div class="logo-tab"><img src="img/Group 129.png"></div>
+            <ul>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="wisata.html">Wisata</a></li>
+            <li><a href="fasilitas.html">Fasilitas</a></li>
+            <li><a href="pusaka.html">Pusaka</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div class="col-md-12 content-tentang">
+        <div class="row justify-content-md-center">
+            <div class="col-md-12 lok-a">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img src="img/icon-lok.png">
+                    </div>
+                    <div class="col-md-3">
+                       <p class="lok-h2">
+                        PETA LOKASI
+                       </p>
+                        <p class="lok-nya">
+                            Gunung Masigit, Citatah, Kec. Cipatat,
+                            Kabupaten Bandung Barat, Jawa Barat 40554
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        
+                    </div>
+                    
+                </div>
+                </div>
+                
+                <div class="col-md-12">
+                    
+                    <div class="maps">
+                    <center><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.5193744235225!2d107.43282921477237!3d-6.828152795065135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68fcf5a9f91995%3A0x5ab054c38fcb6542!2sGunung%20Masigit%2C%20Gunungmasigit%2C%20Kec.%20Cipatat%2C%20Kabupaten%20Bandung%20Barat%2C%20Jawa%20Barat%2040554!5e0!3m2!1sid!2sid!4v1641713275295!5m2!1sid!2sid"
+                        width="83%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+                </div>
+                </div>
+                <div class="col-md-12 content-mapnya">
+                    <img src="img/lokasinya.png">
+                </div>
+                </div>
+    </div>
+
+
+</div>
+    <script>
+        (function ($) {
+            $(function () {
+                $('.toggle-overlay').click(function () {
+                    $('aside').toggleClass('open');
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+
+</html>
