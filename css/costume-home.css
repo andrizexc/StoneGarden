@@ -54,16 +54,17 @@ main {
 .bg-kontak {
 	 background-image: url(bg-kontak.png);
 min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;;
+img
+
+width: 100%;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .bg-fasil {
 	 background-image: url(bg-krem.png);
@@ -438,7 +439,7 @@ hr {
 	color: #DBC5B2;
 }
 .kontak-text {
-	margin: 650px 50px 0px 50px;
+	margin: 500px 50px 0px 50px;
 	
 }
 .kontak-text h1 {
@@ -460,6 +461,23 @@ hr {
 	 font-family: 'proxima-light';
 	 color: #DBC5B2;
 	
+}
+.belakang {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 .icon-k {
 	padding: 12px;
